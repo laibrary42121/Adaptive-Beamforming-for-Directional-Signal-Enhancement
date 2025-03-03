@@ -1,2 +1,4 @@
 # Adaptive-Beamforming-for-Directional-Signal-Enhancement
-Developed an adaptive beamforming system using Kalman filter for DOA denoising and MUSIC algorithm for spatial filtering. Achieved better SNR and interference suppression than LCMV beamformer in dynamic scenarios with fluctuating source and interference directions.
+This project focuses on the development of an adaptive beamforming algorithm to enhance the reception of desired signals in the presence of directional interference. By integrating a Kalman filter-based denoising process, the algorithm refines the real-time estimation of both desired signal direction-of-arrival (DOA) and interference DOA. These improved estimates are then fed into a MUSIC-based adaptive beamformer, enabling more accurate spatial filtering and target signal extraction.
+
+Compared to the conventional linearly constrained minimum variance (LCMV) beamformer, the proposed approach achieves better interference suppression and higher output signal-to-noise ratio (SNR), demonstrating its effectiveness in dynamic environments where source and interference directions may fluctuate over time.
