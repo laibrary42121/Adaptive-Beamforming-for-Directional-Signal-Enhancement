@@ -26,5 +26,3 @@ In modern wireless communication systems, **beamforming** is a critical technolo
 
 ## Results
 - The adaptive beamforming system demonstrated **better interference rejection** and **higher target signal clarity** than conventional LCMV beamforming, especially under dynamic scenarios with time-varying DOAs.
-
-## Folder Structure (Example)
